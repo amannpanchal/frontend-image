@@ -14,7 +14,7 @@ const Signup = () => {
         e.preventDefault();
         try {
             if (name && email && password) {
-                await axios.post("http://localhost:4000/signup", {
+                await axios.post("https://oz7i92-4000.csb.app/signup", {
                     name, email, password, pic
                 }).then((res) => {
                    
