@@ -17,7 +17,7 @@ const Login = () => {
                 password
             }
             if (email && password) {
-                await axios.post("http://localhost:4000/login", {
+                await axios.post("https://oz7i92-4000.csb.app/login", {
                     email, password
                 }).then((res) => {
 
